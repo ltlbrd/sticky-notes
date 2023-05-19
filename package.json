@@ -1,6 +1,7 @@
 {
   "name": "react-last-steps-sticky-notes",
   "version": "1.0.0",
+  "homepage": "https://ltlbrd.github.io/sticky-notes",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
@@ -10,9 +11,12 @@
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "typescript": "3.3.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
