@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sticky-notes/static/css/main.96299d26.css",
+    "main.js": "/sticky-notes/static/js/main.f86961ee.js",
+    "index.html": "/sticky-notes/index.html",
+    "main.96299d26.css.map": "/sticky-notes/static/css/main.96299d26.css.map",
+    "main.f86961ee.js.map": "/sticky-notes/static/js/main.f86961ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96299d26.css",
+    "static/js/main.f86961ee.js"
+  ]
+}
