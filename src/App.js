@@ -5,7 +5,7 @@ import NotesList from "./NotesList.js";
 class App extends Component {
   state = {
     notes: [],
-    searchText: "search notes here"
+    searchText: ""
   };
 
   addNote = () => {
